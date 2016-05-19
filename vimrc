@@ -173,6 +173,10 @@ map <F2> :NERDTreeToggle<CR>
 Plugin 'bling/vim-airline'
 set laststatus=2
 
+"autoclose
+Plugin 'spf13/vim-autoclose'
+let g:autoclose_vim_commentmode = 1
+
 "neocomplete
 Plugin 'Shougo/neocomplete.vim'
 " Disable AutoComplPop.
